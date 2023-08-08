@@ -21,7 +21,8 @@ int main()
     int H, W ;
     printf( "Enter H & W :\n") ;
     scanf( "%d %d", &H, &W ) ;
-    printf( "Triagle Area : %d", H * W / 2 ) ;
+    float result = H * W / 2 ;
+    printf( "Triagle Area : %0.1f", result) ;
 
     return 0;
     
