@@ -18,9 +18,9 @@
 int main()
 {
 
-    int H, W ;
+    float H, W ;
     printf( "Enter H & W :\n") ;
-    scanf( "%d %d", &H, &W ) ;
+    scanf( "%f %f", &H, &W ) ;
     float result = H * W / 2 ;
     printf( "Triagle Area : %0.1f", result) ;
 
